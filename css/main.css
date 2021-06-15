@@ -1,0 +1,86 @@
+body {
+  font-family: "Viaoda Libre", cursive;
+}
+
+.profile-pic {
+  width: 300px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 10px 10px 0px gray;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-pic {
+    width: 80%;
+    object-fit: cover;
+  }
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.content {
+  max-width: 500px;
+}
+
+.name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 36px;
+  }
+}
+
+.job {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.about {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 24px;
+}
+
+.contact {
+  margin-bottom: 48px;
+}
+
+.contact-item {
+  margin: 4px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 8px 24px;
+  text-decoration: none;
+}
